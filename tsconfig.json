@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": true,
+    "outDir": "compiled",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "esnext", "es2017"],
+    "types": ["@types/jasmine", "node", "@wdio/sync", "@types/joi"],
+    "typeRoots": ["./types"],
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": ["config/local.wdio.conf.ts"],
+  "include": ["./src/**/*", "./types/**/*", "./config/**/*"],
+  "exclude": ["node_modules", "Dockerfile", "build"]
+}
