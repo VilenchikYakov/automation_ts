@@ -15,7 +15,7 @@
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true
   },
-  "files": ["config/local.wdio.conf.ts"],
+  "files": ["config/test.wdio.conf.ts"],
   "include": ["./src/**/*", "./types/**/*", "./config/**/*"],
   "exclude": ["node_modules", "Dockerfile", "build"]
 }
